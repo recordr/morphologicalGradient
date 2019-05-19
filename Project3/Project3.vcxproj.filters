@@ -13,13 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Файлы ресурсов\ImagesToTest">
+      <UniqueIdentifier>{3b6685bc-7e8d-4fc8-8972-d1f493d6a2c7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
-    <ClCompile Include="Dilation.cpp">
-      <Filter>Файлы ресурсов</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="figures.jpg">
+      <Filter>Файлы ресурсов\ImagesToTest</Filter>
+    </Image>
+    <Image Include="figures2.jpg">
+      <Filter>Файлы ресурсов\ImagesToTest</Filter>
+    </Image>
+    <Image Include="ImagesToTest\figures3.jpg">
+      <Filter>Файлы ресурсов\ImagesToTest</Filter>
+    </Image>
   </ItemGroup>
 </Project>

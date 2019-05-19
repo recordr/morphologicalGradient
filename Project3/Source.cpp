@@ -71,7 +71,7 @@ void myThreshold(cv::Mat& result, cv::Mat input, int threshold) { //Бинаризация
 int main()
 {
 	cv::Mat image;
-	image = cv::imread("C:/Users/Xiaomi/source/repos/Project3/x64/Debug/tentative.png", cv::IMREAD_COLOR);
+	image = cv::imread("ImagesToTest/figures3.jpg", cv::IMREAD_COLOR);
 	cv::imshow("Source", image);
 
 	cv::Mat gray;
